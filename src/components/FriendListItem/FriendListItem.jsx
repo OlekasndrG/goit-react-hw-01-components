@@ -12,7 +12,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
         <span className={css.offline}></span>
       )}
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
-      <p className={css.item}>{name}</p>
+      <p className={css.name}>{name}</p>
     </li>
   );
 };

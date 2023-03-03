@@ -2,8 +2,8 @@
   display: flex;
   margin-bottom: 0;
   margin-top: 0;
-  font-size: 26px;
-  margin-left: 30px;
+  font-size: 24px;
+  margin-left: 15px;
 }
 .item {
   display: flex;
@@ -17,7 +17,6 @@
 }
 .item:hover {
   background-color: rgba(0, 0, 0, 0.12);
-  cursor: pointer;
 }
 .item:not(:last-child) {
   margin-bottom: 20px;
